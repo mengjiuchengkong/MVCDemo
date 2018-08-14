@@ -20,7 +20,7 @@ public class MyTest {
     public void test2() throws SQLException {
         UserDao dao = new UserDao();
         User user = new User();
-        user.setUsername("zhangsan2");
+        user.setUsername("zhangsan2222");
         user.setPassword("556999");
         dao.addUser(user);
 
